@@ -26,7 +26,7 @@ function Projects() {
         />
         <ProjectCard
           src={Medicam}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com/hamza-shahzadd/Medicam"
           h3="Medicam"
           p="Eccomerce(.Net + React)"
         />

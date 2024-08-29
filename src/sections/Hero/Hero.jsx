@@ -12,7 +12,7 @@ import InstagramLight from '../../assets/instagram-dark.svg';
 import Instagram from '../../assets/instagram.svg';
 import CV from '../../assets/Hamza Shahzad Web Developer.pdf'
 import { useTheme } from '../../common/ThemeContext';
-
+import resume from '../../assets/Hamza.pdf';
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
@@ -60,7 +60,7 @@ function Hero() {
         <p className={styles.description}>
           With a passion for full stack development using various stacks.
         </p>
-        <a href={CV} target="_blank" rel="noopener noreferrer">
+        <a href={resume} target="_blank" rel="noopener noreferrer">
           <button className="hover">Resume</button>
         </a>
         </div>
